@@ -8,12 +8,12 @@ class Divisas {
 
 // Se crean los arrays con las divisas.
 const dolares = [
-    new Divisas('Oficial', 357),
-    new Divisas('Blue', 725),
-    new Divisas('Tarjeta', 642),
-    new Divisas('CCL', 768),
-    new Divisas('MEP', 670),
-    new Divisas('Mayorista', 349),
+    new Divisas('Oficial', 840),
+    new Divisas('Blue', 995),
+    new Divisas('Tarjeta', 1316),
+    new Divisas('CCL', 937),
+    new Divisas('MEP', 962),
+    new Divisas('Mayorista', 802),
 ]
 
 const divisas = [
