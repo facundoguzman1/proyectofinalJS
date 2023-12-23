@@ -26,9 +26,9 @@ class Divisas {
 
 // Se crea el array junto a las divisas.
 const divisas = [
-    new Divisas('Dolar', 605),
-    new Divisas('Euro', 315),
-    new Divisas('Yuan', 40)
+    new Divisas('Dolar', 840),
+    new Divisas('Euro', 885),
+    new Divisas('Yuan', 113)
 ];
 
 // -------------------------------------------------------------------------------
@@ -56,11 +56,11 @@ let tipoDeCambio = 0
 
 // Se le da un valor a la variable segun la respuesta del cliente.
 if (divisa === 'Dolar') {
-    tipoDeCambio = 605;
+    tipoDeCambio = 840;
 } else if (divisa === 'Euro') {
-    tipoDeCambio = 315;
+    tipoDeCambio = 885;
 } else if (divisa === 'Yuan') {
-    tipoDeCambio = 40;
+    tipoDeCambio = 113;
 }
 
 // Se devuelve el resultado.
